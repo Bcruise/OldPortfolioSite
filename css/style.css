@@ -1,0 +1,228 @@
+  :root {
+    --dark-red: #591c0b;
+    --almost-white: #dce1e3;
+    --grey: #5c5f58;
+  }
+
+  body {
+    background: linear-gradient(var(--almost-white), var(--almost-white));
+    background-size: 100%;
+  }
+
+  .card {
+    background: linear-gradient(var(--almost-white), var(--almost-white));
+    background-size: 100%;
+    margin-left: -15px;
+    margin-bottom: 15px;
+  }
+
+  .card-body {
+    background-color: white;
+    color: var(--dark-red);
+    height: 50%;
+  }
+
+  .card-img-top {
+    height: 50%;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+
+  header {
+    background-color: var(--almost-white);
+    display: flex;
+    padding: 20px 0px;
+  }
+
+  .name {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--dark-red);
+    height: 100%;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;    
+    margin-bottom: -10px;
+  }
+
+  
+
+  nav div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;  
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .jumbotron {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .nav-circle {
+    position: sticky;
+    left: 0;
+    font-size: 55px;
+    padding: 15px;
+    background-color: var(--dark-red);
+    padding-bottom: 25px;
+    color: white;
+    font-weight: 900;
+    border-radius: 50%;
+    width: 65px;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .button {
+    background-color: var(--dark-red);
+    border: none;
+    margin-left: -15px;
+  }
+
+  .anchor-tags {
+    color: inherit;
+  }
+
+  .buttons-div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .subtitle {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    background: linear-gradient(to right, rgba(255,255,255,.6), rgba(255,255,255,0) 75%),
+     url(/Ben-Cruises-Bootstrap-Portfolio/images/GettyImages-1224500457-e1643727629417.png);
+    background-size: 100%;
+    color: white;
+    height: 200px;
+    font-weight: 900;
+  }
+
+  .mt-1:hover {
+    box-shadow: 10px 5px 5px black;
+  }
+  
+  li {
+    padding: 0px 15px;  
+    list-style-type: none;
+  }
+
+  a, a:link, a:active, a:hover {
+    color: var(--dark-red);
+  }
+
+  .work-div-flex {
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+    margin-left: -15px;
+  }
+
+  .right {
+    margin-left: 30px;
+  }
+
+  .jumbotron h5 {
+    font-size: 35px;
+  }
+
+  .about-me, .skills, .work {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
+
+  .work-div {
+    display: grid;
+    grid-template-areas: "project-one"
+    "project-two"
+    "project-three"
+    "project-four";
+  }
+
+  .project-one {
+    grid-area: project-one;
+  }
+
+  .project-two {
+    grid-area: project-two;
+  }
+
+  .project-three {
+    grid-area: project-three;
+  }
+
+  .project-four {
+    grid-area: project-four;
+  }
+
+  .contact-me {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+  }
+
+  .about-me-text, .skills-text, .contact-me-text, .work-div {
+    padding-right: 15px;
+    color: var(--dark-red);
+  }
+
+  .footer-links {
+    cursor: pointer;
+    color: white;
+  }
+
+  .footer-links:hover {
+    font-size: 1.025rem;
+  }
+
+  .work {
+    margin-left: 10px;
+  }
+
+  .about-me-title, .skills-title, .contact-me-title, .work-title {
+    border-right: 5px solid var(--dark-red);
+    color: var(--dark-red);
+  }
+
+  .col-md-12 {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .jumbotron div{
+    margin-bottom: -40px;
+  }
+
+@media (max-width: 576px) {
+  .jumbotron div {
+    margin-bottom: 0px;
+  }
+}
+  
