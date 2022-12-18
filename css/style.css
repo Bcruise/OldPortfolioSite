@@ -14,6 +14,7 @@
     background-size: 100%;
     margin-left: -15px;
     margin-bottom: 15px;
+    height:fit-content;
   }
 
   .card-body {
@@ -24,6 +25,16 @@
 
   .card-img-top {
     height: 50%;
+  }
+
+  @media (max-width: 708px) {
+    .card-body {
+      height: 70%;
+    }
+
+    .card-img-top {
+      height: 30%;
+    }
   }
 
   h1,
@@ -80,12 +91,6 @@
     flex-direction: column;
   }
 
-  @media (max-width: 600px) {
-    .d-flex {
-      flex-direction: column;
-    }
-  }
-
   .nav-circle {
     position: sticky;
     left: 0;
@@ -110,7 +115,7 @@
   }
 
   .anchor-tags {
-    color: inherit;
+    color: var(--dark-red);
   }
 
   .buttons-div {
