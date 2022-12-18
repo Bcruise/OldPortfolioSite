@@ -80,6 +80,12 @@
     flex-direction: column;
   }
 
+  @media (max-width: 600px) {
+    .d-flex {
+      flex-direction: column;
+    }
+  }
+
   .nav-circle {
     position: sticky;
     left: 0;
