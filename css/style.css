@@ -186,6 +186,14 @@
     grid-area: project-four;
   }
 
+  .project-one:hover, .project-two:hover, .project-three:hover, .project-four:hover {
+    opacity: 0.8;
+  }
+
+  .toHover:hover {
+    opacity: 0.8;
+  }
+
   .contact-me {
     display: flex;
     flex-direction: row;
