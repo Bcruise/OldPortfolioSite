@@ -78,11 +78,6 @@
     align-items: center;
   }
 
-  .jumbotron {
-    display: flex;
-    flex-direction: column;
-  }
-
   .nav-circle {
     position: sticky;
     left: 0;
@@ -126,6 +121,7 @@
     color: white;
     height: 200px;
     font-weight: 900;
+    margin-bottom: 20px;
   }
 
   .mt-1:hover {
