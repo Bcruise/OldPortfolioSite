@@ -127,7 +127,7 @@ nav {
 }
 
 .home-details {
-    margin-top: calc(20vh - 80px); 
+    margin-top: calc(10vh - 80px); 
     text-align: center;
 }
 
@@ -280,7 +280,7 @@ form label {
 
 .project-details-span {
     color: #333;
-    font-size: 1.3vw;
+    font-size: 1rem;
     font-weight: 700;
     padding: 12px;
 }
@@ -539,8 +539,17 @@ footer {
         display: unset;
     }
 
+
     .logo-and-name-div {
         width: calc((100vw/12)*11)
+    }
+
+    .project-details-span {
+        font-size: .75rem;
+    }
+
+    .logo-and-name {
+        font-size: .9rem;
     }
 
     .case-study-button, .gitHub-repo-button {
