@@ -491,6 +491,10 @@ footer {
       display: none;
     }
 
+    .right {
+        margin-left: 10px;
+    }
+
     .home {
         padding-top: 60px;
     }
