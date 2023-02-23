@@ -34,7 +34,6 @@ nav {
     flex-direction: row;
     align-items: center;
     padding-left: 2.5%;
-    width: calc(100vw/3);
 }
 
 .user-message {
@@ -44,9 +43,8 @@ nav {
 
 .logo-and-name {
     font-weight: 800;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     letter-spacing: 1px;
-    font-size: 15px;
     cursor: pointer;
 }
 
@@ -133,8 +131,12 @@ nav {
     text-align: center;
 }
 
-.about-details, .work-details {
+.about-details, .work-details, .contact {
     margin-top: calc(25vh - 80px);
+}
+
+.contact {
+    margin-top: 150px;
 }
 
 .home-details, .work-details {
@@ -202,7 +204,7 @@ form label {
 }
 
 .home-div-button, .about-div-button {
-    height: calc(40vh - 80px);
+    height: calc(30vh - 80px);
 }
 
 .hr {
@@ -278,7 +280,7 @@ form label {
 
 .project-details-span {
     color: #333;
-    font-size: 1.8vw;
+    font-size: 1.3vw;
     font-weight: 700;
     padding: 12px;
 }
@@ -290,8 +292,6 @@ form label {
     margin-bottom: 1.8vw;
 }
 
-
-
 .project-container {
     height: auto;
     width: 100vw;
@@ -299,7 +299,6 @@ form label {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-bottom: 35px;
 }
 
 .project-container img {
@@ -401,7 +400,7 @@ a, .github-link:hover, .curriculum-vitae:hover {
 }
 
 .skills-section {
-    padding-bottom: 25px;
+    padding-bottom: 35px;
 }
 
 .skills-section h5 {
@@ -464,6 +463,12 @@ footer {
     align-items: center;
 }
 
+.left {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
 .center{
     display: flex;
     justify-content: center;
@@ -471,7 +476,9 @@ footer {
 }
 
 .right {
-    padding-left: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
 
 .name {
@@ -540,13 +547,38 @@ footer {
         font-size: 3vw;
     }
 
+    .project-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .project-container img {
-        height: 30vw;
-        width: 45vw
+        height: 44.444vw;
+        width: 66.666vw;
+    }
+
+    .project-details {
+        margin-top: 15px;
+        justify-content: center;
+        align-items: center;
     }
 
     .project-details p {
-        font-size: 2.25vw;
+        font-size: .8rem;
+    }
+
+    .project-details-title {
+        font-size: 1.8rem;
+    }
+
+    .img-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .work {
+        margin-top: -50px;
     }
 
   }
