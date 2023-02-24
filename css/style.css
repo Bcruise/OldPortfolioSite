@@ -34,6 +34,7 @@ nav {
     flex-direction: row;
     align-items: center;
     padding-left: 2.5%;
+    width: 50%;
 }
 
 .user-message {
@@ -224,7 +225,7 @@ form label {
 .home-button, .about-button, .case-study-button, .submit-button {
     background-color: #ff5349;
     border: none;
-    color: #333;
+    color: white;
     letter-spacing: 1px;
     font-weight: 700;
     border-radius: 5px;
@@ -243,12 +244,12 @@ form label {
 .case-study-button, .gitHub-repo-button {
     width: 95%;
     height: auto;
-    font-size: 2vw;
+    font-size: 1.6vw;
 }
 
 .gitHub-repo-button {
     background-color: #6cc644;
-    color: #333;
+    color: white;
     border-radius: 3px;
     transition: 0.3s;
     cursor: pointer;
@@ -557,7 +558,7 @@ footer {
     }
 
     .case-study-button, .gitHub-repo-button {
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
 
     .project-container {
